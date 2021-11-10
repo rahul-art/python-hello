@@ -1,2 +1,5 @@
 pyramid==2.0
 streamlit
+flask
+pyshine
+imutils
