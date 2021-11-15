@@ -20,7 +20,7 @@ class Ldap:
     for group in fq_groups:  
               self.conn.search(group, '(objectclass=group)', attributes=['sAMAccountName'])  
 
-        if 'sAMAccountName' in self.conn.entries[0]:  
+              if 'sAMAccountName' in self.conn.entries[0]:  
                   groups_with_members[group] = self.conn.entries[0]['sAMAccountName'].values  
 
     return groups_with_members  
