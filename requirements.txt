@@ -4,3 +4,4 @@ flask
 pyshine
 imutils
 opencv-python-headless
+ldap3
