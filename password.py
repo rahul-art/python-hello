@@ -13,7 +13,7 @@ def check_hashes(password,hashed_text):
 
 # DB Management
 import sqlite3
-conn = sqlite3.connect(‘data.db’)
+conn = sqlite3.connect("data.db")
 c = conn.cursor()
 
 # DB Functions
